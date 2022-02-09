@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-image: radial-gradient(circle at -19.64% 37.72%, #c5d6fd 0, #9db9f2 50%, #709de7 100%);
+    position: relative;
+   
+}
+.nav-bar{
+
+   
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 30px; 
+}
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+   
+}
+.nav-bar li{
+    margin: 0 5px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.nav-bar a:hover{
+    background-color: aqua;
+    border-radius: 3px;
+    zoom: 1.1;
+}
+   
+main{
+    padding: 20px;
+    position: relative;
+    max-width: 700px;
+    height: 500px;
+    background-color: rgb(138, 225, 228);
+    margin:200px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px  2px rgb(67, 76, 82, 0.3);
+}
+.main-profile{
+    max-width: 600px;
+    height: 440px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px 0 0 10px;
+    
+}
+.presentation, .experience, .about-me{width: 700px;
+    height: 440px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.experience{
+    margin: 10px;
+    padding: 20px;
+}
+.experience ul{
+    row-gap: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.experience li{
+    border: 1px solid grey;
+}
+.information{
+   
+    height: 422px;
+    display: flex;
+    flex-direction: column;
+
+}
+.basic-information{
+    margin-top: 10px;
+    border-top:1px solid grey;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+    border-radius: 3px;
+}
+.basic-information h1{
+    font-size: 22px;
+    margin: 10px;
+}
+.basic-information p{
+    font-size: 18px;
+    margin: 5px;
+}
+.img{
+    max-width: 260px;
+    height: 300px;
+    background-image: url(/img/profile.jpeg);
+    background-position:center;
+    background-size: cover;
+    border-radius: 3px;
+    
+}
