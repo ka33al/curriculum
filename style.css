@@ -100,10 +100,12 @@ main{
 .basic-information h1{
     font-size: 22px;
     margin: 10px;
+    border-bottom: 1px solid grey;
 }
 .basic-information p{
     font-size: 18px;
     margin: 5px;
+    border-bottom: 1px solid grey;
 }
 .img{
     max-width: 260px;
