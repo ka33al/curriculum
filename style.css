@@ -110,7 +110,7 @@ main{
 .img{
     max-width: 260px;
     height: 300px;
-    background-image: url(img/profile.jpeg);
+    background-image: url(profile.jpeg);
     background-position:center;
     background-size: cover;
     border-radius: 3px;
